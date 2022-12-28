@@ -1,0 +1,555 @@
+#pricingParentDiv{
+    text-align: center;
+    background-color: rgb(254, 249, 249);
+}
+
+#headDiv{
+    /* border: 2px solid red; */
+    height: 280px;
+    /* margin-top: 100px; */
+}
+
+#buttonDiv{
+    /* border: 2px solid blue; */
+    height: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#buttonDiv h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #606060;
+}
+
+#pricingDiv{
+    /* border: 2px solid greenyellow; */
+    /* height: 800px; */
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+#pricingDiv > div {
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+#compareDiv{
+    /* border: 2px solid green; */
+    height: 200px;
+}
+
+#footerDiv{
+    /* border: 2px solid brown; */
+    /* height: 800px; */
+    background-color: #303030;
+    color: #fff;
+}
+
+#faqSection{
+    /* border: 2px solid teal; */
+    color: #303030;
+    margin-top: 68px;
+    padding: 30px 0;
+    scroll-behavior: smooth;
+}
+
+#priceDiv1{
+    box-shadow: rgba(215, 217, 219, 0.3) 0px 1px 2px 0px, rgba(220, 223, 225, 0.15) 0px 1px 3px 1px;
+    /* width: 19%; */
+    margin-left: 150px;
+    background-color: white;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+#priceDiv2{
+    box-shadow: rgba(215, 217, 219, 0.3) 0px 1px 2px 0px, rgba(220, 223, 225, 0.15) 0px 1px 3px 1px;
+    width: 19%;
+    background-color: white;
+    border: 3px solid rgb(178, 177, 177);
+    position: relative;
+    padding-bottom: 80px;
+}
+
+#priceDiv3{
+    box-shadow: rgba(215, 217, 219, 0.3) 0px 1px 2px 0px, rgba(220, 223, 225, 0.15) 0px 1px 3px 1px;
+    width: 19%;
+    background-color: white;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+#priceDiv4{
+    box-shadow: rgba(215, 217, 219, 0.3) 0px 1px 2px 0px, rgba(220, 223, 225, 0.15) 0px 1px 3px 1px;
+    width: 19%;
+    margin-right: 150px;
+    background-color: white;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+#buttonDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.toggle-btn{
+    width: 65px;
+    height: 25px;
+    background-color: rgb(238, 238, 238);
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.toggle-btn > .inner-circle{
+    width: 28px;
+    height: 28px;
+    background: gray;
+    border-radius: 50%;
+    margin-left: -3px;   
+    margin-top: -1.05px;
+}
+
+
+.toggle-btn.active > .inner-circle{
+    margin-left: 40px;
+}
+
+
+
+#headDiv >h1 {
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 115%;
+    padding-top: 80px;
+}
+
+#buttonDiv > h3{
+    margin-top: 7px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.infoDiv{
+    display: grid;
+}
+
+.infodivChild1{
+    margin-bottom: 40px;
+    font-family: barlow semi condensed,sans-serif;
+    font-size: 19px;
+}
+
+.infodivChild2{
+    font-size: 87px;
+    font-size: 4.83333rem;
+    line-height: .43;
+    font-family: barlow semi condensed,sans-serif;
+    color: #ffa1a1;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.infodivChild3{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: 0 0;
+    font-family: source sans pro,sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.56;
+    letter-spacing: 0;
+}
+
+#info1{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 36px;
+    padding: 30px 0;
+   
+    
+}
+#info1 h1 {
+    font-weight: 200;
+}
+
+#info2{
+    font-size: 17px;
+    font-family: source sans pro,sans-serif;
+    margin-bottom: 45px;
+}
+
+#info3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#info4{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#footerDiv img{
+    /* border: 1px solid red; */
+    height: 30px;
+    width: 180px;
+
+}
+
+.btn-outline-primary{
+    margin-top: 60px;
+    width: 280px;
+    height: 70px;
+    border-radius: 0%;
+    color: #0033ff;
+    background-color: rgb(254, 249, 249);
+    border-color: #0033ff;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-outline-primary:hover {
+    cursor: pointer;
+    background-color: #0033ff;
+    color: #fff;
+}
+
+.logo1{
+    height: 120px;
+    width: 130px;
+    margin-top: -60px;
+}
+
+
+.planName{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 38px;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+
+.priceChild{
+    display: flex;
+    font-family: "Barlow Semi Condensed",sans-serif;
+}
+
+.planPrice{
+    font-size: 50px;
+    padding: 20px 10px;
+}
+
+.pPrice{
+    font-size: 13px;
+    font-weight: bolder;
+    margin-top: 47.5px;
+    margin-left: 2px;
+}
+
+
+.planFeature{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    padding-right: 10px;
+}
+
+ul{
+    list-style: none;
+    line-height: 45px;
+    text-align: left;
+    padding: 0 10px;
+}
+
+ul li:before{
+    content: '✔ ';
+}
+
+#subscribeBtn1{
+    position: absolute;
+    width: 100%;
+    top: 73%;
+}
+
+#subscribeBtn2{
+    position: absolute;
+    width: 100%;
+    top: 73%;
+}
+
+#subscribeBtn3{
+    position: absolute;
+    width: 100%;
+    top: 73%;
+}
+
+#subscribeBtn4{
+    position: absolute;
+    width: 100%;
+    top: 73%;
+}
+
+#subscribeBtn1 button:hover, #subscribeBtn2 button:hover, #subscribeBtn3 button:hover, #subscribeBtn4 button:hover {
+    background-color: #092493;
+    cursor: pointer;
+}
+#subscribeBtn1 button {
+    width: 90%;
+    font-size: 18px;
+    background-color: #0033ff;
+}
+#subscribeBtn2 button {
+    width: 90%;
+    font-size: 18px;
+    background-color: #0033ff;
+}
+#subscribeBtn3 button {
+    width: 90%;
+    font-size: 18px;
+    background-color: #0033ff;
+}
+#subscribeBtn4 button {
+    width: 90%;
+    font-size: 18px;
+}
+
+
+
+#footerDiv section{
+    background-color: rgb(254, 249, 249);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#mainLabel{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 42px;
+    background-color: rgb(254, 249, 249);
+    cursor: pointer;
+    display: block;
+    padding: 15px 20px;
+    padding-top: 30px;
+    color: rgb(69, 68, 68);
+    text-align: center;
+    position: relative;
+}
+
+label{
+    font-family: "Barlow Semi Condensed",sans-serif;
+    font-size: 26px;
+    background-color: rgb(254, 249, 249);
+    cursor: pointer;
+    display: block;
+    padding: 15px 20px;
+    padding-top: 30px;
+    color: rgb(69, 68, 68);
+    text-align: left;
+    position: relative;
+}
+
+label::after{
+    background-color: rgb(254, 249, 249);
+    cursor: pointer;
+    display: block;
+    padding: 15px 20px;
+    margin: 0;
+    color: #666;
+    position: relative;
+    font-size: 22px;
+    content: "\271B";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    opacity: 0.5;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+#mainLabel::after{
+    background-color: rgb(254, 249, 249);
+    cursor: pointer;
+    display: block;
+    padding: 15px 20px;
+    margin: 0;
+    color: #666;
+    position: relative;
+    font-size: 22px;
+    content: "\271B";
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    opacity: 0.5;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+#sec{
+    display: none;
+}
+
+.faq{
+    color: #666;
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    padding: 0px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    text-align: justify;
+    scroll-behavior: smooth;
+}
+
+#faqDiv{
+    color: #666;
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    padding: 0px;
+    opacity: 0;
+    transition: all 0.5s ease;
+    text-align: justify;
+    scroll-behavior: smooth;
+}
+
+#sec:checked + #mainLabel + #faqDiv{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+#s1:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+#s1:checked + label::after{
+    content: "\268A";
+    scroll-behavior: smooth;
+}
+
+#s1{
+    display: none;
+}
+
+.faqP{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+.faqChild{
+    margin-left: 200px;
+    margin-right: 200px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    scroll-behavior: smooth;
+}
+
+#s2:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s2:checked + label::after{
+    content: "\268A";
+}
+
+#s2{
+    display: none;
+}
+
+#s3:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s3:checked + label::after{
+    content: "\268A";
+}
+
+#s3{
+    display: none;
+}
+
+#s4:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s4:checked + label::after{
+    content: "\268A";
+}
+
+#s4{
+    display: none;
+}
+
+#s5:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s5:checked + label::after{
+    content: "\268A";
+}
+
+#s5{
+    display: none;
+}
+
+#s6:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s6:checked + label::after{
+    content: "\268A";
+}
+
+#s6{
+    display: none;
+}
+
+#s7:checked + label + .faq{
+    max-height: 100vh;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px;
+}
+
+#s7:checked + label::after{
+    content: "\268A";
+}
+
+#s7{
+    display: none;
+}
+
